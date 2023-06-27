@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <main>
         <section className='bg-blue-700 min-h-screen'>
-
+          <h1>Hello World!</h1>
         </section>
       </main>
     </div>  
