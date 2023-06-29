@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
+import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -19,6 +20,17 @@ export default function Home() {
               <li> <a href='#/blog' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Blog</a></li>
             </ul>
           </nav>
+          <div>
+            <h2>Alex G Frieman</h2>
+            <h3>Developer and Writer</h3>
+            <p>Experienced in Ruby on Rails and JavaScript-based programming and a background in higher education. 
+Solution oriented, creative approach to app design with a focus on delivering users an intuitive interactive experience.
+            </p>
+          </div>
+          <div>
+            <AiFillGithub />
+            <AiFillLinkedin />
+          </div>
         </section>
       </main>
     </div>  
