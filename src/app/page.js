@@ -28,8 +28,8 @@ Solution oriented, creative approach to app design with a focus on delivering us
             </p>
           </div>
           <div>
-            <AiFillGithub />
-            <AiFillLinkedin />
+            <a href='https://github.com/friedmanalexg'><AiFillGithub /></a>
+            <a href='https://www.linkedin.com/in/alex-friedman-codes/'><AiFillLinkedin /></a>
           </div>
         </section>
       </main>
