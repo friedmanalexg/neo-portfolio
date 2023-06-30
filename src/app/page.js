@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
+import Image from "next/image";
+import deved from '../../public/dev-ed-wave.png';
 
 export default function Home() {
   return (
@@ -20,16 +22,19 @@ export default function Home() {
               <li> <a href='#/blog' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Blog</a></li>
             </ul>
           </nav>
-          <div>
-            <h2>Alex G Frieman</h2>
-            <h3>Developer and Writer</h3>
-            <p>Experienced in Ruby on Rails and JavaScript-based programming and a background in higher education. 
+          <div className='text-center p-10 py-10'>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium'>Alex G Frieman</h2>
+            <h3 className='text-2xl py-2'>Developer and Writer</h3>
+            <p className='tx-md py-5 leading-8 text-gray-800'>Experienced in Ruby on Rails and JavaScript-based programming and a background in higher education. 
 Solution oriented, creative approach to app design with a focus on delivering users an intuitive interactive experience.
             </p>
           </div>
-          <div>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <a href='https://github.com/friedmanalexg'><AiFillGithub /></a>
             <a href='https://www.linkedin.com/in/alex-friedman-codes/'><AiFillLinkedin /></a>
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 mt-20">
+            <Image src={deved} fill cover  />
           </div>
         </section>
       </main>
