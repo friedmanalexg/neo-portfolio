@@ -4,7 +4,7 @@ import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import Image from "next/image";
 import deved from '../../public/dev-ed-wave.png';
 
-export default function Home() {
+export default function Page() {
   return (
     <div>
       <Head>
