@@ -3,6 +3,9 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import Image from "next/image";
 import deved from '../../public/dev-ed-wave.png';
+import design from '../../public/design.png';
+import code from '../../public/code.png';
+import consulting from '../../public/consulting.png';
 
 export default function Page() {
   return (
@@ -43,6 +46,36 @@ Solution oriented, creative approach to app design with a focus on delivering us
             <p className='tx-md py-5 leading-8 text-gray-800'>I'm just some placeholder text. Lorem Ipsum or whatever. Stop reading this.</p>
             <p className='tx-md py-5 leading-8 text-gray-800'>I'm just some placeholder text. Lorem Ipsum or whatever. Stop reading this.</p>
           </div>
+          <div>
+            <div className='text-center shadow-lg rounded-xl p-10 my-10'>
+              <Image src={design} width={100} height={100}/>
+              <h3 className='tx-lg font-medium pt-8 pb-2'>Basically Servicable Designs</h3>
+              <p className='py-2'>blah blah blah yackity schmackity. </p>
+              <h4 className='text-teal-600 py-4'> design tools i use</h4>
+              <p className='text-gray-800 py-1'>Example</p>
+              <p className='text-gray-800 py-1'>Example</p>
+              <p className='text-gray-800 py-1'>Example</p>
+            </div>
+            <div className='text-center shadow-lg rounded-xl p-10 my-10'>
+              <Image src={code} width={100} height={100}/>
+              <h3 className='tx-lg font-medium pt-8 pb-2'>Basically Servicable Designs</h3>
+              <p className='py-2'>blah blah blah yackity schmackity. </p>
+              <h4 className='text-teal-600 py-4'> design tools i use</h4>
+              <p className='text-gray-800 py-1'>Example</p>
+              <p className='text-gray-800 py-1'>Example</p>
+              <p className='text-gray-800 py-1'>Example</p>
+            </div>
+            <div className='text-center shadow-lg rounded-xl p-10 my-10'>
+              <Image src={consulting} width={100} height={100}/>
+              <h3 className='tx-lg font-medium pt-8 pb-2'>Basically Servicable Designs</h3>
+              <p className='py-2'>blah blah blah yackity schmackity. </p>
+              <h4 className='text-teal-600 py-4'> design tools i use</h4>
+              <p className='text-gray-800 py-1'>Example</p>
+              <p className='text-gray-800 py-1'>Example</p>
+              <p className='text-gray-800 py-1'>Example</p>
+            </div>
+          </div>
+          
         </section>
       </main>
     </div>  
