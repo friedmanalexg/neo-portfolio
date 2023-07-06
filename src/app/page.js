@@ -34,7 +34,14 @@ Solution oriented, creative approach to app design with a focus on delivering us
             <a href='https://www.linkedin.com/in/alex-friedman-codes/'><AiFillLinkedin /></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 mt-20">
-            <Image src={deved} fill cover  />
+            <Image src={deved} fill style={{objectFit:"contain"}} />
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Services I offer</h3>
+            <p className='tx-md py-5 leading-8 text-gray-800'>I'm just some placeholder text. Lorem Ipsum or whatever. Stop reading this.</p>
+            <p className='tx-md py-5 leading-8 text-gray-800'>I'm just some placeholder text. Lorem Ipsum or whatever. Stop reading this.</p>
           </div>
         </section>
       </main>
