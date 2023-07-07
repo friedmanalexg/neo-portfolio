@@ -43,8 +43,8 @@ Solution oriented, creative approach to app design with a focus on delivering us
             <a href='https://github.com/friedmanalexg'><AiFillGithub /></a>
             <a href='https://www.linkedin.com/in/alex-friedman-codes/'><AiFillLinkedin /></a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 mt-20">
-            <Image src={deved} style={{objectFit:"cover"}} />
+          <div style={{position:"relative"}} className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <Image src={deved} fill style={{objectFit: "cover"}} />
           </div>
         </section>
         <section>
