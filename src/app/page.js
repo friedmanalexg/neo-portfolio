@@ -29,16 +29,16 @@ export default function Page() {
       <main className='bg-white dark:bg-gray-900 px-10 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
           <nav className='dark:text-white py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-burtons'>Alex Friedman codes</h1>
+            <h1 className='text-xl font-burtons dark:text-white text-gray-800'>Alex Friedman codes</h1>
             <ul className='flex items-center'>
-              <li> <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl'/></li>
+              <li> <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-white text-gray-800'/></li>
               <li> <a href='#' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Resume</a></li>
               <li> <a href='#/blog' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Blog</a></li>
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
             <h2 className='text-5xl py-2 dark:text-teal-400 text-teal-600 font-medium md:text-6xl'>Alex G Frieman</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Developer and Writer</h3>
+            <h3 className='text-2xl py-2 md:text-3xl text-gray-800 dark:text-white'>Developer and Writer</h3>
             <p className='tx-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto'>Experienced in Ruby on Rails and JavaScript-based programming and a background in higher education. 
 Solution oriented, creative approach to app design with a focus on delivering users an intuitive interactive experience.
             </p>
@@ -53,7 +53,7 @@ Solution oriented, creative approach to app design with a focus on delivering us
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
+            <h3 className='text-3xl py-1 dark:text-white text-gray-800'>Services I offer</h3>
             <p className='tx-md py-5 leading-8 text-gray-800 dark:text-gray-200'>I'm just some placeholder text. Lorem Ipsum or whatever. Stop reading this.</p>
             <p className='tx-md py-5 leading-8 text-gray-800 dark:text-gray-200'>I'm just some placeholder text. Lorem Ipsum or whatever. Stop reading this.</p>
           </div>
@@ -89,7 +89,7 @@ Solution oriented, creative approach to app design with a focus on delivering us
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white text-gray-800">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
