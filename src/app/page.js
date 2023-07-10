@@ -33,7 +33,7 @@ export default function Page() {
             <ul className='flex items-center'>
               <li> <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-white text-gray-800'/></li>
               <li> <a href='#' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Resume</a></li>
-              <li> <a href='#/blog' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Blog</a></li>
+              <li> <a href='/blog' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Blog</a></li>
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
