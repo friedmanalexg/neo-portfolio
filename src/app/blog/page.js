@@ -4,9 +4,11 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import Image from "next/image";
+import { useState } from 'react';
 
 //blog page
 export default function Page() {
+  const [darkMode, setDarkMode] = useState(false);
   return (
     <div>
       <Head>
